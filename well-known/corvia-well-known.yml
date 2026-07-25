@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: probed
+source: live HTTP probes of https://corviamedical.com
+host: corviamedical.com
+# Every standard well-known path was probed and returned 404. Corvia Medical is a
+# medical device manufacturer with no public API, developer portal, or identity
+# surface. Recorded so later rounds do not need to re-probe.
+probes:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- path: /llms.txt
+  status: 404
+  file: null
+found: []

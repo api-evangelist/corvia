@@ -40,7 +40,7 @@ x-tier: no-api-surface
 x-tier-reason: medical-device-manufacturer-no-public-api
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Medical Devices
@@ -59,6 +59,8 @@ tags_raw:
 - Medtech
 apis: []
 common:
+- url: https://corviamedical.com/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/corvia-domain-security.yml
 - type: Website

@@ -48,7 +48,7 @@ tags:
 - Cardiology
 - Heart Failure
 - Interventional Cardiology
-- MedTech
+- Medical Technology
 tags_raw:
 - Company
 - Medical Devices
@@ -57,6 +57,7 @@ tags_raw:
 - Heart Failure
 - Interventional Cardiology
 - Medtech
+- MedTech
 apis: []
 common:
 - url: https://corviamedical.com/feed/
